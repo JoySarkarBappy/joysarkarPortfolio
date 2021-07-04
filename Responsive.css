@@ -74,6 +74,16 @@
     opacity: 1;
     visibility: visible;
   }
+  .clickme:checked ~ .bar-btn {
+    display: none;
+  }
+  .clickme:checked ~ .cross-btn {
+    display: block;
+  }
+  .cross-btn {
+    display: none;
+    transform: rotate(-48deg);
+  }
   .primary-manu {
     position: absolute;
     display: block;
