@@ -1,0 +1,142 @@
+@media (max-width: 1217px) {
+  .basic-text h2::after {
+    left: 526px;
+  }
+  .basic-text h2::before {
+    left: 358px;
+  }
+}
+.bar-btn {
+  display: none;
+}
+.clickme {
+  display: none;
+}
+@media (max-width: 999px) {
+  .basic-text h2::after {
+    display: none;
+  }
+  .basic-text h2::before {
+    display: none;
+  }
+  .custom-button {
+    clear: both;
+  }
+
+  .custom-button .btn-primary {
+    margin-top: 3px;
+    width: 48%;
+    float: left;
+    margin-left: 2px;
+  }
+  .about-me h4 {
+    font-size: 16px;
+  }
+  .about-me h1 {
+    font-size: 29px;
+  }
+  .about-me h2 {
+    font-size: 23px;
+  }
+  .services-detail h3 {
+    font-size: 23px;
+  }
+  .icon a i {
+    font-size: 24px;
+    width: 72px;
+    height: 72px;
+
+    line-height: 72px;
+  }
+  .bar-btn {
+    color: #fff;
+    font-size: 23px;
+    position: absolute;
+    right: 17px;
+    top: 26%;
+    display: block;
+    z-index: -1;
+  }
+  .clickme {
+    position: absolute;
+    right: 20px;
+    top: 34%;
+    cursor: pointer;
+    display: block;
+    opacity: 0;
+    z-index: 1;
+  }
+  .primary-manu {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .clickme:checked ~ ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  .primary-manu {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    width: 209px;
+    height: 300px;
+  }
+  .header-manu ul li a {
+    display: block;
+  }
+  .header-btn {
+    top: 20px;
+  }
+
+  .header-manu ul li ul {
+    position: absolute;
+    left: -233px;
+    top: 51%;
+    background: rgb(3, 3, 3, 0.8);
+    width: 200px;
+  }
+}
+@media (max-width: 353px) {
+  .about-me h1 {
+    font-size: 26px;
+  }
+  .about-me h2 {
+    font-size: 19px;
+  }
+  .about-me h4 {
+    font-size: 13px;
+  }
+  .btn-primary {
+    font-size: 14px;
+  }
+  .header-manu ul li ul {
+    width: 150px;
+    left: -183px;
+  }
+  .primary-manu {
+    width: 160px;
+    height: 270px;
+  }
+  .servises-about::before {
+    left: 13px;
+    top: -110px;
+  }
+  .h5,
+  h5 {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+  .custom-button .btn-primary {
+    margin-top: 3px;
+    width: 40%;
+    text-align: center;
+
+    margin-left: 10px;
+    margin-bottom: 2px;
+  }
+  .Slider-section {
+    background-attachment: unset;
+  }
+}
