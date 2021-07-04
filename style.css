@@ -150,8 +150,8 @@ img {
   background: red;
 }
 .img-me {
-  width: 410px;
-  height: 410px;
+  width: 350px;
+  height: auto;
 }
 /*services-section*/
 .Servises-section {
@@ -200,7 +200,7 @@ img {
   z-index: 1;
   transition: 0.5s;
 }
-.icon a i:hover {
+.servises-about:hover .icon a i {
   color: white;
   background: red;
 }
